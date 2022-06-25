@@ -1,0 +1,19 @@
+{
+  "name": "simple-readability",
+  "version": "1.0.0",
+  "description": "A simple parser for reader mode",
+  "main": "index.js",
+  "author": "Davide Merli",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "dompurify": "^2.3.8",
+    "express": "^4.18.1",
+    "jsdom": "^20.0.0",
+    "node-fetch": "^3.2.6",
+    "nodemon": "^2.0.18",
+    "readability-js": "^1.0.7"
+  }
+}
